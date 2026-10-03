@@ -116,12 +116,11 @@ namespace C_OOP03.Classes
         /// </summary>
         public void PrintAllShipments()
         {
-            for (int i = 0; i < shipments.Length; i++)
+            foreach (var shipment in shipments)
             {
-                if (shipments[i] != null)
+                if (shipment != null)
                 {
-
-                    shipments[i].PrintShipment();
+                    shipment.PrintShipment();
                     Console.WriteLine("--------------------------------------");
                 }
             }
