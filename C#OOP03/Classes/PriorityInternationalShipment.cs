@@ -4,6 +4,11 @@ using C_OOP03.Struct;
 
 namespace C_OOP03.Classes
 {
+    /// <summary>
+    /// Represents a priority international shipment.
+    /// Inherits international shipment information and behavior
+    /// and provides a sealed implementation of GenerateCustomsReport.
+    /// </summary>
     internal class PriorityInternationalShipment:InternationalShipment
     {
         public PriorityInternationalShipment(string _trackingCode, string _description,

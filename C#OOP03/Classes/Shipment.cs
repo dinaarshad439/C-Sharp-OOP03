@@ -104,14 +104,20 @@ namespace C_OOP03.Classes
         
         public void Weight_Update(decimal newWeight)
         {
+
             if(newWeight > 0) 
                 Weight= newWeight;
         }
         
-        public void Weight_Update(int ExtraWeight)
+        public decimal Weight_Update(int newWeight)
         {
-            if (ExtraWeight > 0) 
-                Weight += ExtraWeight;
+            if (newWeight > 0)
+            {
+               Weight += newWeight;
+                return Weight;
+            }
+
+            return 0;
         }
 
         public virtual void PrintShipment()
