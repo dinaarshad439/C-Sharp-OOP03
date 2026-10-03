@@ -54,6 +54,10 @@ namespace C_OOP03.Classes
 
         #endregion
 
+        public virtual void GenerateCustomsReport() 
+        {
+            Console.WriteLine($"Cutom report generated fo{DestinationCountry}");
+        }
         public override void PrintShipment()
         {
             Console.WriteLine("--- International Shipment ---");
