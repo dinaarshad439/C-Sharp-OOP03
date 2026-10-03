@@ -36,7 +36,28 @@
 
             #endregion
 
+            #region (Q2) Sealed Classes and Methods
 
+            // (a)
+            /*
+             *  its means that it Prevents other classes from inheriting
+             */
+
+            // (b)
+            /*
+             * Sealed class:
+             * Prevents a class from being inherited.
+             *
+             * Sealed method:
+             * Prevents a method from being overridden in a derived class.
+             */
+
+            // (c)
+            /*
+             * No,a sealed method cannot be overridden again because
+             * the sealed keyword prevents further overriding
+             */
+            #endregion
 
 
             #endregion
